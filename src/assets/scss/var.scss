@@ -1,0 +1,19 @@
+@use "sass:color";
+
+$vs-color-primary: #245b09;
+$vs-color-success: #33D095;
+$vs-color-danger: #f56c6c;
+
+html:root {
+  --vs-color-primary: #{$vs-color-primary};
+
+  @each $type, $color in (primary, $vs-color-primary), (success, $vs-color-success), (danger, $vs-color-danger) {
+    // venus
+    --vs-color-#{$type}: #{$color};
+
+    @each $i in (1, 2, 3, 5, 7, 8, 9) {
+      // 颜色混合
+      --vs-color-#{$type}-light-#{$i}: #{color.mix(#fff, $color, $i * 10%)};
+    }
+  }
+}
