@@ -19,7 +19,6 @@
 </template>
 <script setup lang="ts">
 import { useDemoStore } from '@/stores/demo'
-import { storeToRefs } from 'pinia'
 
 const demoStore = useDemoStore()
 const { counter } = storeToRefs(demoStore)

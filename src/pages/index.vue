@@ -6,13 +6,14 @@
 -->
 <template>
   <div class="index">index</div>
+  <div>msg: {{ msg }}</div>
+  <div>isShow: {{ isShow }}</div>
+  <button @click="toggle()">Toggle</button>
 </template>
 
 <script setup lang="ts">
-console.log('index')
+const [isShow, toggle] = useToggle()
+const msg = ref('Hello world')
 </script>
 
-<style scoped lang="scss">
-.index {
-}
-</style>
+<style scoped lang="scss"></style>
