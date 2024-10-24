@@ -1,6 +1,10 @@
-# venus-vue3-app-template
+# venus-vue3-app-template Vue3 全家桶通用模板项目
 
-This template should help get you started developing with Vue 3 in Vite.
+- 程序员优雅哥 youyacoder venus(火星)系列。
+
+- 整合了 TypeScript、Vue Router、Pinia、UnoCSS、SCSS、ESLint、Prettier、unplugin-vue-router、vite-plugin-vue-layouts、unplugin-auto-import、unplugin-vue-components、vueuse。
+
+- 最简代码模版，开箱即用，支持自动路由、全局布局、自动导入、组件自动注册。
 
 ## Recommended IDE Setup
 

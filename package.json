@@ -3,6 +3,26 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
+  "author": {
+    "name": "youyacoder",
+    "email": "hero_cloudy@126.com",
+    "url": "https://github.com/HeroCloudy/venus-vue3-app-template"
+  },
+  "keywords": [
+    "vue3",
+    "typescript",
+    "vite",
+    "unocss",
+    "scss",
+    "unplugin-vue-router",
+    "vite-plugin-vue-layouts",
+    "unplugin-auto-import",
+    "unplugin-vue-components、vueuse",
+    "企业级"
+  ],
+  "repository": {
+    "url": "https://github.com/HeroCloudy/venus-vue3-app-template"
+  },
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check \"build-only {@}\" --",
