@@ -10,7 +10,8 @@
     "build-only": "vite build",
     "type-check": "vue-tsc --build --force",
     "lint": "eslint . --fix",
-    "format": "prettier --write src/"
+    "format": "prettier --write src/",
+    "postinstall": "patch-package"
   },
   "dependencies": {
     "@unocss/reset": "^0.63.6",
@@ -34,6 +35,7 @@
     "eslint": "^9.12.0",
     "eslint-plugin-vue": "^9.29.0",
     "npm-run-all2": "^6.2.3",
+    "patch-package": "^8.0.0",
     "prettier": "^3.3.3",
     "sass": "^1.80.3",
     "typescript": "~5.5.4",
@@ -42,6 +44,7 @@
     "unplugin-vue-components": "^0.27.4",
     "unplugin-vue-router": "^0.10.8",
     "vite": "^5.4.8",
+    "vite-plugin-eslint": "^1.8.1",
     "vite-plugin-svg-icons": "^2.0.1",
     "vite-plugin-vue-devtools": "^7.4.6",
     "vite-plugin-vue-layouts": "^0.11.0",
