@@ -5,8 +5,7 @@
  @time: 2024/10/24 10:41
 -->
 <template>
-  <div class="index">index</div>
-  <hello-world msg="message" />
+  <div>home page</div>
 </template>
 
 <script setup lang="ts"></script>
